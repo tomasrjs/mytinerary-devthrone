@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #D6E4FF;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem 5rem;
+}
+
+.App-container h1 {
+    font-size: 3rem;
+    color: #3F3D56;
+}
+
+.App-container p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #3F3D56;
+    font-weight: 600;
+}
+
+.App-container button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #0A5CFF;
+    color: white;
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.App-container button:hover {
+    background-color: #4785FF;
+}
+
+@media screen and (min-width: 768px) {
+
+    .App-container {
+        background-image: url("https://i.ibb.co/pfS5KdS/background-Image.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .App-container {
+        align-items: flex-start;
+
+    }
+}
