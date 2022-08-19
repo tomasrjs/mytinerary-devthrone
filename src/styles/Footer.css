@@ -11,7 +11,8 @@
     width: 100%;
     min-height: 15vh;
     background-color: #5C98FF;
-    gap: .6rem;
+    padding: 1.8rem 0 .8rem 0;
+    gap: 1.5rem;
 }
 .Footer-container-nav{
     display: flex;
@@ -24,5 +25,9 @@
 }
 .Footer-continer-socialmedia{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+}
+
+a img {
+    width: 2.5rem;
 }
