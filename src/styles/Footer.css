@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 15vh;
+    background-color: #5C98FF;
+    gap: .6rem;
+}
+.Footer-container-nav{
+    display: flex;
+    gap: 2rem;
+}
+.Footer-container p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.Footer-continer-socialmedia{
+    display: flex;
+    gap: 1rem;
+}
