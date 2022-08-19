@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import WelcomePage from './pages/WelcomePage';
 import Footer from './components/Footer'
 function App() {
