@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Carousel-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 3rem 3rem 3rem;
+    gap: 1.5rem;
+}
+
+.Carousel-container {
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    padding: 3rem 0 0 0;
+    color: #3F3D56;
+}
+
+.Carousel-city {
+    width: 100%;
+    height: 18rem;
+    border-radius: .5rem;
+}
+
+.Carousel-city h3 {
+    padding: .5rem;
+    text-align: center;
+    height: 2.5rem;
+    color: #3F3D56;
+}
+
+.Carousel-city img {
+    width: 100%;
+    height: 15.5rem;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+@media screen and (min-width: 576px) {
+
+    .Carousel-city {
+        width: 45%;
+        height: 20rem;
+    }
+
+    .Carousel-city img {
+        height: 17.5rem;
+    }
+}
