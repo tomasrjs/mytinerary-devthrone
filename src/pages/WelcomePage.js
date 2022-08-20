@@ -1,16 +1,16 @@
 import React from 'react'
 import '../styles/WelcomePage.css'
+import WebsiteLayout from '../layouts/WebsiteLayout'
 
 export default function WelcomePage() {
-
-
-  return (
-    <>
+ 
+  return (  
+    <WebsiteLayout>
     <div className='App-container'>
         <h1>MyTinerary</h1>
         <p>Find your perfect trip, designed by insiders who know and love their cities!</p>
         <a href='#'>Choose your destiny</a>
     </div>
-    </>
+    </WebsiteLayout>   
   )
 }
