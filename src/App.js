@@ -1,4 +1,4 @@
-import WelcomePage from './pages/WelcomePage';
+import WelcomePage from './pages/HomePage';
 
 function App() {
   return (
