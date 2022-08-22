@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/WelcomePage.css'
 import WebsiteLayout from '../layouts/WebsiteLayout'
 import CitiesCarousel from '../components/CitiesCarousel'
+import CallToAction from '../components/CallToAction'
 
 export default function WelcomePage() {
  
@@ -10,7 +11,7 @@ export default function WelcomePage() {
     <div className='App-container'>
         <h1>MyTinerary</h1>
         <p>Find your perfect trip, designed by insiders who know and love their cities!</p>
-        <a href='#'>Choose your destiny</a>
+        <CallToAction/>
     </div>
     <CitiesCarousel />
     </WebsiteLayout>   
