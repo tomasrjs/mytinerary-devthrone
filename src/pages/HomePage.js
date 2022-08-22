@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/WelcomePage.css'
+import '../styles/HomePage.css'
 import WebsiteLayout from '../layouts/WebsiteLayout'
 import CitiesCarousel from '../components/CitiesCarousel'
 import CallToAction from '../components/CallToAction'

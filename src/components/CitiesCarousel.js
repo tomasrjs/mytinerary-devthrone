@@ -17,6 +17,6 @@ export default function CitiesCarousel() {
     ]
 
   return (
-    <Carousel data={cities} range={4} />
+    <Carousel data={cities} range={4} interval={3} />
   )
 }
