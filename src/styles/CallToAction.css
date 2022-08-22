@@ -1,0 +1,22 @@
+.CallToAction-a {
+    width: 13.5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #0A5CFF;
+    color: white;
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.CallToAction-a:hover {
+    background-color: #3b79f6;
+    background-image: url('/public/map.png');
+    background-position: calc(11.8rem);
+    background-repeat: no-repeat;
+}
+
+
+
+
