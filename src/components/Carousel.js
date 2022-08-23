@@ -28,13 +28,21 @@ export default function Carousel(props) {
         if (start >= range) {
             setStart(start - range)
             setEnd(end - range)
+        }else{
+            setStart(cities.length - range)
+            setEnd(cities.length)
         }
+        clearInterval(intervalId)
     }
     function next() {
         if (end < cities.length) {
             setStart(start + range)
             setEnd(end + range)
+        }else{
+            setStart(0)
+            setEnd(4)
         }
+        clearInterval(intervalId)
     }
     return (
         <div className='Carousel'>
@@ -46,7 +54,6 @@ export default function Carousel(props) {
                 </div>
                 <Arrow icon={'>'} click={next} />
             </div>
-
         </div>
     )
 }
