@@ -3,10 +3,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 60vh;
+    min-height: 65vh;
 }
 .UnderConstruction-container img{
     width: 100vw;
-    height: 60vh;
+    height: 65vh;
     object-fit: contain;
 }
