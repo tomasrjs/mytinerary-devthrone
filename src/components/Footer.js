@@ -9,7 +9,7 @@ export default function Footer () {
       behavior: 'smooth'
     });
   }
-
+  const today = new Date()
   return (
     <>
     <div className='Footer-container'>
@@ -23,7 +23,7 @@ export default function Footer () {
             <a href="https://www.instagram.com/"><img src="/instagram.png" alt='social media' /></a>
             <a href="https://github.com/emazou/mytinerary-devthrone"><img src="/github.png" alt='social media' /></a>
         </div>
-        <p>©2022 MyTinerary</p>
+        <p>©{today.getFullYear()} MyTinerary</p>
         <button className='scroll' onClick={scroll}></button>
     </div>
     </>
