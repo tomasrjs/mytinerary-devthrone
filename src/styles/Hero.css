@@ -35,5 +35,10 @@
         font-size: 1.8rem;
     }
 }
-
+@media screen and (min-width: 1440px){
+    .Hero-container{
+        justify-content: flex-start;
+        padding-top: 4rem;
+    }
+}
 
