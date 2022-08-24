@@ -9,7 +9,7 @@ export default function () {
     return (
         <div className='Header-container'>
             <div className='Header-nav-container'>
-                <img src="/logo.png" alt="" />
+                <img src="/logo.png" alt="Logo" />
                 <nav ref={navRef}>
                     <LinkRouter className='Header-link' to='/'>Home</LinkRouter>
                     <LinkRouter className='Header-link' to='/cities'>Cities</LinkRouter>

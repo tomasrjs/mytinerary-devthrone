@@ -11,10 +11,10 @@
     display: flex;
     align-items: center;
     width: 100%;
-    gap: 3rem;
+    gap: 2rem;
 }
 .Header-nav-container img{
-    width: 3.5rem;
+    width: 4.8rem;
 }
 .nav-btn{
     padding: .5px;
