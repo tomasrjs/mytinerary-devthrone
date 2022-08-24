@@ -26,8 +26,8 @@
     opacity: 0;
 }
 .Header-user{
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-image: url('/public/user.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -38,8 +38,7 @@
 .Header-link{
     text-decoration: none;
     margin-right: 2rem;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.3rem;
     color: aliceblue;
 }
 .Header-link:hover{
