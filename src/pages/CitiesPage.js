@@ -18,8 +18,7 @@ export default function CitiesPage() {
     {url: "https://i.ibb.co/CHKWGGk/sidney.jpg", name: "Sidney"}
 ]
 
-
   return (
-        <div className='CitiesPage-container'>{cities.map(city => <CityCard url={city.url} name={city.name} />) }</div>
+        <div className='CitiesPage-container'>{cities.map((city, index) => <CityCard url={city.url} name={city.name} key={index} />) }</div>
   )
 }
