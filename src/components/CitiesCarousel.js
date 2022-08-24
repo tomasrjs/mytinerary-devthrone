@@ -1,5 +1,4 @@
 import Carousel from './Carousel'
-import CitiesPage from '../pages/CitiesPage'
 
 export default function CitiesCarousel() {
     const cities = [
@@ -18,9 +17,6 @@ export default function CitiesCarousel() {
     ]
 
   return (
-    <>
-    {/* <CitiesPage data={cities} /> */}
     <Carousel data={cities} range={4} interval={3} />
-    </>
   )
 }
