@@ -15,7 +15,8 @@ function App() {
         <Route path='/' element={<HomePage />}></Route>
         <Route path='/cities' element={<CitiesPage />}></Route>
         <Route path='/newCities' element={<NewCitiesPage />}></Route>
-        <Route path='/UnderConstruction' element={<UnderConstruction />}></Route>
+        <Route path='*' element={<UnderConstruction />}></Route>
+
       </Routes>
     </WebsiteLayout>
     </>
