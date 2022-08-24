@@ -3,8 +3,12 @@ import CitiesPage from './pages/CitiesPage';
 import NewCitiesPage from './pages/NewCitiesPage';
 import { Route, Routes } from 'react-router-dom';
 import WebsiteLayout from './layouts/WebsiteLayout';
+import ScrollToTop from './components/ScrollToTop';
+
 function App() {
   return (
+    <>
+    <ScrollToTop />
     <WebsiteLayout>
       <Routes>
         <Route path='/' element={<HomePage />}></Route>
@@ -12,6 +16,7 @@ function App() {
         <Route path='/newCities' element={<NewCitiesPage />}></Route>
       </Routes>
     </WebsiteLayout>
+    </>
   );
 }
 
